@@ -32,7 +32,7 @@ runPlugin('qupath.lib.plugins.objects.SmoothFeaturesPlugin', '{"fwhmMicrons": 10
 
 //Run object classifier based on tissue type
 //It is highly recommended to train your own cell classifier.
-//AS an example cell classifier for metastatic liver tissues is uploaded.
+
 selectAnnotations();
 runObjectClassifier("/...path.../lung.json")
 
